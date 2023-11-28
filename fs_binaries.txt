@@ -1,0 +1,8 @@
+freesurfer/bin/mri_annotation2label
+freesurfer/bin/mri_aparc2aseg
+freesurfer/bin/mri_binarize
+freesurfer/bin/mri_binarize.bin
+freesurfer/bin/mri_convert
+freesurfer/bin/mri_convert.bin
+freesurfer/bin/mri_convert_mdh
+freesurfer/bin/mri_robust_register
