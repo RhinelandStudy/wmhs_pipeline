@@ -29,7 +29,8 @@ The pipeline can be run with docker by running the container as follows:
                  -v /path/to/input_scans:/input \
                  -v /path/to/work_folder:/work \
                  -v /path/to/output:/output \
-        wmhs_pipeline run_wmhs_pipeline \
+        dznerheinlandstudie/rheinlandstudie:wmhs_pipeline \
+        run_wmhs_pipeline \
         -s /input \
         --subjects test_subject_01 \
         -w /work \
