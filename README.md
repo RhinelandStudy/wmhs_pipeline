@@ -1,6 +1,29 @@
 # wmhs_pipeline
-White matter hyperintensities segmentation pipeline using T1/T2&amp;FLAIR images
 
+This repository contains a Nipype wrapper for  the White matter hyperintensities segmentation pipeline using T1/T2&amp;FLAIR images.
+
+It uses an ensemble of 4 models constructed with the [Deepmedic](https://github.com/deepmedic/deepmedic) tool.
+
+Disclosure: The method is trained on hyperintensities located primarily on the white matter and basal ganglia. However, the detection phase attempts to detect hyperintensities in the whole brain (ie, not restricted to a particular region). Due to the lack of hyperintensities outside the white matter and basal ganglia in the training data, some hyperintensities outside these areas may be missed.
+
+
+If you use this wrapper please cite:
+
+Lohner, V., Pehlivan, G., Sanroma, G., Miloschewski, A., Schirmer, M. D., Stöcker, T., ... & Breteler, M. M. (2022). Relation between sex, menopause, and white matter hyperintensities: the Rhineland study. Neurology, 99(9), e935-e943.
+https://doi.org/10.1212/WNL.0000000000200782
+
+```
+@article{lohner2022relation,
+  title={Relation between sex, menopause, and white matter hyperintensities: the Rhineland study},
+  author={Lohner, Valerie and Pehlivan, G{\"o}khan and Sanroma, Gerard and Miloschewski, Anne and Schirmer, Markus D and St{\"o}cker, Tony and Reuter, Martin and Breteler, Monique MB},
+  journal={Neurology},
+  volume={99},
+  number={9},
+  pages={e935--e943},
+  year={2022},
+  publisher={AAN Enterprises}
+}
+```
 
 ## Build docker image
 

@@ -1,12 +1,16 @@
-"""
-Copyright 2023 Population Health Sciences, German Center for Neurodegenerative Diseases (DZNE)
-Licensed under the Apache License, Version 2.0 (the "License"); 
-you may not use this file except in compliance with the License. 
-You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0 
-Unless required by applicable law or agreed to in writing, software distributed under the 
-License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and limitations under the License.
-"""
+# Copyright 2023 Population Health Sciences, German Center for Neurodegenerative Diseases (DZNE)
+#
+#    Licensed under the Apache License, Version 2.0 (the "License");
+#    you may not use this file except in compliance with the License.
+#    You may obtain a copy of the License at
+#
+#        http://www.apache.org/licenses/LICENSE-2.0
+#
+#    Unless required by applicable law or agreed to in writing, software
+#    distributed under the License is distributed on an "AS IS" BASIS,
+#    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#    See the License for the specific language governing permissions and
+#    limitations under the License.
 
 from nipype.interfaces.base import (
     traits,
@@ -19,13 +23,6 @@ from nipype.interfaces.base import (
 #from nipype.utils.filemanip import copyfile
 import os
 
-# os.environ['ANTSPATH'] = '/groups/mri-rhinelandstudy/software/ants2.3'
-# os.environ['PATH'] = os.path.join(os.environ['ANTSPATH'], 'bin') + ':' + os.environ['PATH']
-# os.environ['FSLDIR'] = '/groups/mri-rhinelandstudy/software/fsl/fsl6.0.0'
-# os.environ['PATH'] = os.path.join(os.environ['FSLDIR'], 'bin') + ':' + os.environ['PATH']
-# os.environ['FREESURFER_HOME'] = '/groups/mri-rhinelandstudy/software/freesurfer/freesurfer6.0.0'
-# os.environ['PATH'] = os.path.join(os.environ['FREESURFER_HOME'], 'bin') + ':' + os.environ['PATH']
-# os.environ['SUBJECTS_DIR'] = os.path.join(os.environ['FREESURFER_HOME'], 'subjects')
 
 ################################################
 ########## WMH SEGMENTATION UTILS ##############
