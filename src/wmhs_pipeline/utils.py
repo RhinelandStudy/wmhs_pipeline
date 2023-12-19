@@ -23,13 +23,6 @@ from nipype.interfaces.base import (
 #from nipype.utils.filemanip import copyfile
 import os
 
-# os.environ['ANTSPATH'] = '/groups/mri-rhinelandstudy/software/ants2.3'
-# os.environ['PATH'] = os.path.join(os.environ['ANTSPATH'], 'bin') + ':' + os.environ['PATH']
-# os.environ['FSLDIR'] = '/groups/mri-rhinelandstudy/software/fsl/fsl6.0.0'
-# os.environ['PATH'] = os.path.join(os.environ['FSLDIR'], 'bin') + ':' + os.environ['PATH']
-# os.environ['FREESURFER_HOME'] = '/groups/mri-rhinelandstudy/software/freesurfer/freesurfer6.0.0'
-# os.environ['PATH'] = os.path.join(os.environ['FREESURFER_HOME'], 'bin') + ':' + os.environ['PATH']
-# os.environ['SUBJECTS_DIR'] = os.path.join(os.environ['FREESURFER_HOME'], 'subjects')
 
 ################################################
 ########## WMH SEGMENTATION UTILS ##############
