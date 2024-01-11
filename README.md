@@ -46,14 +46,14 @@ The pipe requires the following input scans and some files from Freesurfer outpu
 2. T2.nii.gz
 3. FLAIR.nii.gz
 4. subdirectory ```mri``` having these files:
- . mri/aseg.mgz
- . mri/orig_nu.mgz
- . mri/ribbon.mgz
+ - mri/aseg.mgz
+ - mri/orig_nu.mgz
+ - mri/ribbon.mgz
 5. subdirectory ```surf``` having these files:
- . surf/?h.white (?=both left and right hemispheres)
- . surf/?h.pial  (?=both left and right hemispheres)
+ - surf/?h.white (?=both left and right hemispheres)
+ - surf/?h.pial  (?=both left and right hemispheres)
 6. subdirectory ```label``` having these files:
- . label/?h.aparc.annot (?=both left and right hemishperes)
+ - label/?h.aparc.annot (?=both left and right hemishperes)
 
  
 ## Run pipeline:
